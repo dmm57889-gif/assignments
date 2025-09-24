@@ -85,7 +85,7 @@ soglia_massima_moltiplicatore = st.sidebar.slider(
     "Moltiplicatore soglia massima per riassegnazione",
     min_value=1.0,
     max_value=10.0,
-    value=5.0,
+    value=2.0,
     step=0.1,
     help="Il valore massimo assegnabile per negozio sarà: valore_max_pallet * questo moltiplicatore"
 )
@@ -450,6 +450,7 @@ else:
 # Footer
 st.markdown("---")
 st.markdown("*Sistema di Assegnazione Pallet - Versione Web App con Riassegnazione Automatica*")
+
 
 
 
